@@ -1,0 +1,22 @@
+# ═══════════════════════════════════════════════
+#  AI Job Agent — Python Dependencies
+# ═══════════════════════════════════════════════
+
+# ── Core HTTP + parsing ──────────────────────────
+requests>=2.31.0          # HTTP requests for APIs and scrapers
+beautifulsoup4>=4.12.0    # HTML parsing for career page scraper
+lxml>=4.9.0               # Fast HTML parser backend for BeautifulSoup
+
+# ── Data ─────────────────────────────────────────
+python-dotenv>=1.0.0      # Load .env into os.environ
+
+# ── AI / Embeddings ──────────────────────────────
+groq>=0.9.0               # Groq API client (OpenAI-compatible, free tier)
+sentence-transformers>=2.7.0  # Local embedding model (all-MiniLM-L6-v2)
+numpy>=1.24.0             # Cosine similarity computation
+
+# ── Resume generation ─────────────────────────────
+python-docx>=1.1.0        # Build .docx resume files
+
+# ── Utilities ────────────────────────────────────
+tqdm>=4.66.0              # Progress bars (optional, nice for long runs)
